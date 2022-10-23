@@ -1,0 +1,108 @@
+HTML-Navbar-Harmburger-menu
+
+
+HDR-create an header.
+ NAV-create a nav class-navbar.
+  inside the nav
+    ANC-create an anchor link with a class of logo-branding-Logo
+      UL-create an unordered List-class of nav-menu 
+       lI-list-class of nav-items>
+        create an <a class-nav-links>Home,about,etc.
+    DIV-create a div-class of Harmburger
+     SPN-class of bars.*3
+     
+END OF HTML -Harmburger
+
+CSS-
+
+Body
+select Body-font,family;
+
+General Reset-margin padding box-sizing;
+select header-background;
+select ul li-remove style;
+select anchor link-color and remove any TD;
+select  navbar(container)-min height-Display flex-justify content-align-items-padding;
+select nav-menu(links) display flex-align-items-gap;
+select nav-logo-font-size;
+select nav-link-transition 0.7s ease;
+select nav-link and apply hover-color;
+select harmburger display none-Add cursor;
+select span class-dispay-block-background-height-width margin-top-transition all 0.3s E-I-O;
+
+ADD MEDIA QUERY FOR SCREEN SIZE
+
+
+select harmburger-display block
+select harmburger.active and select bar:nth-child(2)-and set opacity-0
+select harmburger.active and select bar:nth-child(1)-and set-transform translateY by 8px and rotate 45deg
+select harmburger.active and select bar:nth-child(3)-and set-transform translateY by -8px and rotate -45deg
+
+select nav-menu(links)-position-fixed-
+postion -100% RightorLeft;
+Top-(Arbitary)70px
+Flex-direcrtion-column
+Background-color.
+Width-
+Height-
+Text-align
+Transition-0.3s
+Align-items-
+justify-content
+
+
+select-nav-item 
+Margin-T B-0
+
+JavaS
+select
+-Nav-menu.active
+RightorLeft-0
+
+END OF CSS
+
+
+
+
+JAVASCRIPT-
+
+WRITE-const harmburger = doc.querySelector(".harmburger");
+WRITE-const navMenu = doc.querySelector(".navMenu");
+
+ADD EVENTLISTNER-IF "CLICKED ", ()=>PERFORM THIS ACTION BELOW
+
+Harmburger.addEventListener("click", () =>{
+harmburger.classList.toggle("active);
+navMenu.classList.toggle("active);)}
+
+
+
+const harmburger = document.querySelector(".harmburger");
+const navMenu = document.querySelector(".nav-menu");
+
+harmburger.addEventListener("click", () => {
+  harmburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+      
+     
+     
