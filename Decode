@@ -1,0 +1,112 @@
+<!-- HTML -->
+
+create an <header>
+  create an <a href="#">logo</a>
+
+  inside create a <nav>
+
+    create a <ul>with a class='menu'
+      create an <li><a href="#">links</a></li>x3or4.
+
+
+      create a <button class="harmburger">
+        <span>google-material-icon</span>
+
+
+      </button>
+
+      create an <ul>
+        <li><a href="#">links</a></li>
+      </ul>
+
+
+    </ul>
+  </nav>
+</header>
+
+<!-- HTML FINISHED -->
+
+<!-- CSS STARTS -->
+* General-reset;
+body-BG;
+
+nav{
+PR,ZI,DF,JC,AI,BG,CLR,PD-T,B;
+}
+
+NAV-LOGO{
+LS,PD-T,B,TRNST
+}
+
+NAV LOGO HOVER{
+CLR.
+
+}
+
+MENU{
+DISP-N
+MAG,AI
+}
+
+
+MENU A-HOVER-{
+
+
+}
+
+.HAMBURGER-GOOG-FNT-APEAR-N,BG-N,OUT-N,{CP,DB W/H;}
+
+HARMB SPAN{
+CLR,FZ
+}
+
+.MOBILE-MENU{
+P-FIX,TP-LF,W/H,ZI,OP-0,PAD,TTX(-100%),BG,CLR,TRNS-O.s;
+}
+
+<!-- 2 CLASSES JAVASCRIPT -->
+
+.MOBILE-MENU IS-OPEN{
+TT-0;
+OP-1
+}
+
+.MOBILE-MENU A {
+DIS-B, PAD,CLR,TXT-A,TXT-D,FZ,TRNST-O.s;
+}
+
+
+.MOBILE-MENU A HOVER{
+CLR,BG;
+
+}
+
+<!-- MEDIA QUERY -->
+
+MOBILE-MENU,.HARMBURGER-DISP-;
+MENU-DISP-FLEX;
+
+
+<!-- CSS ENDS -->
+
+<!-- JAVA -->
+
+<!-- Here you get the classes and assign variable name  -->
+
+CNST HAMB =DQS-('.hm');
+CNST VARNAME =HAM.DQS-('.Sp');
+CONST VARNAME = DQS('.mm');
+
+<!-- add click event to menu icon -->
+HAM.AEL('', ()=>{
+VARNAME.INTXT=VARNAME.INTXT ==='menu'
+IF-?'G-icon ':' G-icon'
+
+<!-- Get the VARNAME for .mobile-menu and toggle the class of opacity 0 translate 0 "is---" -->
+
+
+
+
+
+
+})
