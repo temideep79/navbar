@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Random Tutorials</title>
-  <!-- HTML -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c6f99e54f6.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://kit.fontawesome.com/c6f99e54f6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="section-center">
+      <nav class="nav-container">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="./images/asset/logo.svg"
+              class="log-img"
+              alt="logo-svg"
+            />
+          </a>
+        </div>
+        <div class="hamburger">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav>
+    <!-- hero-section -->
 
-      <a href="#" class="logo">logo</a>
-<!-- NAV-LINKS -->
-      <div class="menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Discord</a>
-        <a href="#">Contact</a>
+    <section class="hero section-center">
+      <div class="hero-content">
+        <img
+          src=".//images/asset/image-web-3-mobile.jpg"
+          class="img-hero"
+          alt=""
+        />
+      </div>
+      <div class="hero-title">
+        <h1>the bright future of web 3.0?</h1>
+        <p>
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a href="#" class="btn">Read more</a>
       </div>
 
-      <button class="hamburger">
+      <article class="main-content"></article>
+    </section>
 
-        <span class="material-symbols-outlined">menu
-        </span>
-
-
-      </button>
-
-    </nav>
-
-    <div class="mobile-menu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Discord</a>
-      <a href="#">Contact</a>
-    </div>
-
-
-  </header>
-
-
-
-  <script src="./js/script.js"></script>
-
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
